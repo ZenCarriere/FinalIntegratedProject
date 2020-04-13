@@ -1,0 +1,497 @@
+@charset "UTF-8";
+
+h1,h2,h3,p,a,label  {
+	font-family: "Copperplate Gothic Light", Arial, sans-serif;
+}
+
+.selected {
+	font-color:#599B2F;
+}
+.ProductImg {
+	float-left;
+}
+
+.hidden {
+	display:none;
+}
+
+.price {
+	color:green;
+}
+
+#HeaderBar {
+	margin-top:-10px;
+	padding-top:-10px;
+	width:100%;
+	height:300px;
+	background-color:#EFEFEF;
+	border-color: #414241;
+}
+
+#Logo {
+	width:150px;
+	height:150px;
+	float-left;
+	margin-left:46.6%;
+	margin-top:-280px;
+}
+
+#TopNav {
+	width: 560px;
+	float:left;
+	margin-left: 34.9%;
+	margin-right:50%;
+	margin-top:60px;
+	}
+
+#TopNav ul{
+	list-style-type:none;
+
+	}
+
+#TopNav ul li{
+	display:inline;
+	margin-left:45px;
+	font-size:25px;
+	}
+
+#TopNav ul li a {
+	text-decoration: none;
+	color:#000000;	
+	}
+
+#TopNav ul li a:hover {
+	font-weight: bold;
+	}
+
+#BannerImage {
+	float-left;
+	margin-left:16%;
+	margin-top:6.9%;
+}
+#BannerImage p {
+	margin-left:305px;
+	margin-top:-65px;
+	color:white;
+	font-size:50px;
+}
+
+#ProductsBannerImage {
+	float-left;
+	margin-left:410px;
+	margin-top:6.9%;
+}
+#ProductsBannerImage p {
+	margin-left:408px;
+	margin-top:-65px;
+	color:white;
+	font-size:50px;
+}
+
+#ContactBannerImage {
+	float-left;
+	margin-left:22.5%;
+	margin-top:6.9%;
+}
+#ContactBannerImage p {
+	margin-left:350px;
+	margin-top:-65px;
+	color:white;
+	font-size:50px;
+}
+
+#TopText {
+	text-align:center;
+	font-size:30px;
+	margin-top:80px;
+}
+
+#FeaturedProductImages {
+	width:100%;
+	margin-left:0px;
+	padding-left:-50px;
+	display: flex;
+  	flex-direction: row;
+  	justify-content:space-evenly;
+
+}
+
+#FeaturedProductImages p {
+	text-align:center;
+	font-size:20px;
+
+}
+
+#ProductImages1 {
+	width:75%;
+	margin-left:250px;
+	margin-top:40px;
+	display: flex;
+  	flex-direction: row;
+  	justify-content:space-evenly;
+
+}
+
+#ProductImages1 p {
+	text-align:center;
+	font-size:20px;
+
+}
+
+#ProductImages2 {
+	width:75%;
+	margin-left:250px;
+	margin-top:40px;
+	display: flex;
+  	flex-direction: row;
+  	justify-content:space-evenly;
+
+}
+
+#ProductImages2 p {
+	text-align:center;
+	font-size:20px;
+
+}
+
+#Links {
+	font-size:25px;
+	text-align:center;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+#Form {
+	display:flex;
+	flex-direction:column;
+	margin-left:515px;
+	margin-bottom:100px;
+	flex:1;
+}
+
+#Form label {
+	font-size:25px;
+}
+
+#Footer {
+	width:100%;
+	height:80px;
+	padding-top:150px;
+	background-color:#EFEFEF;
+	border-color: #414241;
+	display:flex;
+}
+
+#FooterNav {
+	width: 560px;
+	float:left;
+	margin-left: 35%;
+	margin-top:-130px;
+	font-size:20px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	}
+
+#FooterNav ul{
+	list-style-type:none;
+
+	}
+
+#FooterNav ul li{
+	display:inline;
+	margin-left:45px;
+	}
+
+#FooterNav ul li a {
+	text-decoration: none;
+	color:#000000;	
+	}
+
+#FooterNav ul li a:hover {
+	font-weight: bold;
+	}
+
+#FooterLogo {
+	float:left;
+	width:110px;
+	height:110px;
+	margin-left:-40%;
+	margin-top:-75px;
+}
+
+#SocialMedia {
+float:left;
+margin-left:700px;
+margin-top:-40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen AND (max-width: 960px) {
+
+#HeaderBar {
+	width:480px;
+	height:200px;
+	background-color:#EFEFEF;
+	border-color: #414241;
+}
+
+#Logo {
+	margin-top:-190px;
+	width:100px;
+	height:100px;
+	margin-left:42%;
+}
+
+#TopNav {
+	margin-left: -15px;
+	margin-right:50%;
+	margin-top:40px;
+	}
+
+#TopNav ul li{
+	margin-left:30px;
+	font-size:20px;
+	}
+
+#BannerImage {
+	margin-left:-390px;
+	margin-top:-22.9%;
+}
+#BannerImage p {
+	margin-left:410px;
+	margin-top:-55px;
+	font-size:30px;
+}
+
+#ProductsBannerImage {
+	margin-left:-240px;
+}
+#ProductsBannerImage p {
+	margin-left:370px;
+	font-size:40px;
+}
+
+#ContactBannerImage {
+	margin-left:-280px;
+}
+#ContactBannerImage p {
+	margin-left:390px;
+	margin-top:-65px;
+	font-size:40px;
+}
+
+#TopText {
+	text-align:center;
+	font-size:30px;
+	margin-top:80px;
+}
+
+#FeaturedProductImages {
+	margin-left:110px;
+	display: flex;
+	margin-bottom:25px;
+  	flex-direction: column;
+  	justify-content:space-evenly;
+
+}
+
+#FeaturedProductImages p {
+	margin-left:-240px;
+	text-align:center;
+	font-size:20px;
+
+}
+
+#ProductImages1 {
+	margin-left:100px;
+	display: flex;
+	margin-bottom:25px;
+  	flex-direction: column;
+  	justify-content:space-evenly;
+
+}
+
+#ProductImages1 p {
+	margin-left:-70px;
+	text-align:center;
+	font-size:20px;
+
+}
+
+#ProductImages2 {
+	margin-left:100px;
+	display: flex;
+	margin-bottom:25px;
+  	flex-direction: column;
+  	justify-content:space-evenly;
+
+}
+
+#ProductImages2 p {
+	margin-left:-70px;
+	text-align:center;
+	font-size:20px;
+
+}
+
+#Links {
+	font-size:30px;
+	text-align:center;
+	margin-bottom:60px;
+}
+
+#Form {
+	margin-left:155px;
+	margin-bottom:50px;
+	width:50px;
+}
+
+#Footer {
+	width:480px;
+	height:50px;
+}
+
+#FooterNav {
+	display:flex;
+	flex-direction: row;
+	width: 400px;
+	margin-left: 20px;
+	margin-top:-160px;
+	font-size:20px;
+	margin-bottom:0px;
+	padding-bottom:20px;
+	}
+
+#FooterNav ul{
+	list-style-type:none;
+
+	}
+
+#FooterNav ul li{
+	margin-left:10px;
+	}
+
+#FooterLogo {
+	float:left;
+	width:90px;
+	height:90px;
+	margin-left:-360px;
+	margin-top:-75px;
+}
+
+#SocialMedia {
+	float:right;
+	display:flex;
+	flex-direction: column;
+	margin-left:180px;
+	margin-top:-95px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
